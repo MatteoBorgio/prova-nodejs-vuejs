@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 
 const app = express()
 
-app.use(cors({ origin: 'http://localhost:5174' }))
+app.use(cors({ origin: 'http://localhost:5173' }))
 app.use(express.json())
 
 // --- CONFIGURAZIONE DATABASE ---
