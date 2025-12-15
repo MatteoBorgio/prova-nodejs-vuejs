@@ -19,8 +19,6 @@ mongoose.connect(MONGODB_URI)
     .then(() => console.log('✅ Connesso a MongoDB Atlas con successo!'))
     .catch(err => {
         console.error('❌ Errore di connessione a Mongo:', err)
-        // Suggerimento per il debug in caso di errore
-        if (err.codeName === 'BadValue') console.log("Controlla di non aver lasciato le parentesi < > nella password")
     })
 
 // --- MODELLO ---
