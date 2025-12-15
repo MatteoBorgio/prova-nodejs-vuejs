@@ -40,7 +40,6 @@ async function addTask() {
   text-align: center;
 }
 li {
-  background: #f0f0f0;
   margin: 5px 0;
   padding: 10px;
   list-style: none;
